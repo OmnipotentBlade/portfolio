@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background {
+  background-image: url('/background.jpg');
+}
+
+.heading {
+  font-size: 64px;
+  display: flex;
+  width: 475px;
+  height: 97px;
+  flex-direction: column;
+  flex-shrink: 0;
+  line-height: normal;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-size: 28px;
+  width: 480px;
+}
+
+.button_about {
+  color: #FFF;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  width: 323px;
+  height: 64px;
+  flex-shrink: 0;
+
+  border-radius: 20px;
+  background: rgba(0, 151, 184, 0.30);
+}
+.button_exp_projects {
+  color: #FFF;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  width: 323px;
+  height: 64px;
+  flex-shrink: 0;
+
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* body {
+  background: url(/background.jpg), lightgray 50% / cover no-repeat;
+  filter: blur(9px);
+  background-size: cover;
+
+  width: 1694px;
+  height: 1090px;
+  flex-shrink: 0;
+}
+
+.heading1text {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  
+  color: #FFF;
+  font-size: 64px;
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+} */
