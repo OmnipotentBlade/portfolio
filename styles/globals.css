@@ -9,7 +9,7 @@
 .heading {
   font-size: 64px;
   display: flex;
-  width: 475px;
+  width: 450px;
   height: 97px;
   flex-direction: column;
   flex-shrink: 0;
@@ -21,7 +21,7 @@
   flex-direction: column;
   flex-shrink: 0;
   font-size: 26px;
-  width: 480px;
+  width: 410px;
 }
 
 .button_about {
@@ -36,7 +36,7 @@
   flex-shrink: 0;
 
   border-radius: 20px;
-  background: rgba(0, 151, 184, 0.30);
+  background: rgba(207, 90, 57, 0.3);
 }
 
 .button_exp_projects {
@@ -56,7 +56,7 @@
 
 .imageportrait {
   border-radius: 300px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* body {

@@ -1,4 +1,5 @@
 import 'styles/globals.css'
+import NavBar from '../components/Navbar'
 import { Red_Hat_Text } from 'next/font/google'
 
 const redhattext = Red_Hat_Text({ subsets: ['latin'] })
