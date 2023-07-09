@@ -9,7 +9,6 @@ export default function Home() {
       <div>
         <Hero heading="Ahmed Osman" desc="Electrical & Computer Engineering student passionate in Cybersecurity, Robotics, and Electronics."/>
       </div>
-      <Footer/>
     </main>
   )
 }
