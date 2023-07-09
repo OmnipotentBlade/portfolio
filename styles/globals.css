@@ -7,9 +7,8 @@
 }
 
 .heading {
-  font-size: 64px;
   display: flex;
-  width: 450px;
+  width: auto;
   height: 97px;
   flex-direction: column;
   flex-shrink: 0;
@@ -20,8 +19,6 @@
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  font-size: 26px;
-  width: 410px;
 }
 
 .button_about {
@@ -51,34 +48,10 @@
   flex-shrink: 0;
 
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(180, 180, 180, 0.20);
 }
 
 .imageportrait {
   border-radius: 300px;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-/* body {
-  background: url(/background.jpg), lightgray 50% / cover no-repeat;
-  filter: blur(9px);
-  background-size: cover;
-
-  width: 1694px;
-  height: 1090px;
-  flex-shrink: 0;
-}
-
-.heading1text {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-  
-  color: #FFF;
-  font-size: 64px;
-  font-family: 'Red Hat Text';
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-} */

@@ -8,23 +8,23 @@ const Hero = ({heading, desc}) => {
     return (
         <div className='h-screen bg-fixed bg-center bg-cover background'>
             <div className='flex items-center justify-center h-screen'>
-                <div className='pl-5 text-white z-[2]'>
-                    <h2 className='font-semibold heading'>{heading}</h2>
+                <div className='pl-6 text-white z-[2]'>
+                    <h2 className='font-semibold heading text-5xl md:text-[54px] lg:text-[64px] xl:text-[68px] xl:w-[500px]'>{heading}</h2>
                     <div className='pb-8'>
                         <ul className='flex'>
                             <li className='px-4'>
                                 <a href='https://www.linkedin.com/in/aosma/'>
-                                    <Image src='/icons/socials/linkedinwhite.png' width={40} height={40} alt='LinkedIn Profile'/>
+                                    <Image src='/icons/socials/linkedinwhite.png' className='hover:brightness-90 transition' width={40} height={40} alt='LinkedIn Profile'/>
                                 </a>
                             </li>
                             <li className='px-4'>
                                 <a href='https://github.com/OmnipotentBlade'>
-                                    <Image src='/icons/socials/githubwhite.png' width={40} height={40} alt='GitHub Profile'/>
+                                    <Image src='/icons/socials/githubwhite.png' className='hover:brightness-90 transition' width={40} height={40} alt='GitHub Profile'/>
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <p className='py-5 font-thin desc'>{desc}</p>
+                    <p className='py-5 font-thin w-[350px] desc leading-normal text-lg md:text-[24px] md:w-[360px] lg:text-[26px] lg:w-[410px] xl:text-[28px] xl:w-[450px]'>{desc}</p>
                     <div className='pt-6'>
                         <ul>
                             <li className='p-[6px]'>
@@ -36,7 +36,7 @@ const Hero = ({heading, desc}) => {
                                 </button>
                             </li>
                             <li className='p-[6px]'>
-                                <button className='flex button_exp_projects transition-all hover:brightness-150' onClick={() => router.push('/about#experience')}>
+                                <button className='flex button_exp_projects transition-all hover:brightness-125' onClick={() => router.push('/about#experience')}>
                                 <a className='py-3 pl-[18px] pr-[0.5px]'>Experience</a>
                                     <div className='py-3 pl-[110px]'>
                                         <Image src='/icons/other/ArrowRight.svg' width={38} height={38} alt='Go' className='invert'/>
@@ -44,7 +44,7 @@ const Hero = ({heading, desc}) => {
                                 </button>
                             </li>
                             <li className='p-[6px]'>
-                                <button className='flex button_exp_projects transition-all hover:brightness-110' onClick={() => router.push('/projects')}>
+                                <button className='flex button_exp_projects transition-all hover:brightness-125' onClick={() => router.push('/projects')}>
                                 <a className='py-3 pl-[18px] pr-[37.15px]'>Projects</a>
                                     <div className='py-3 pl-[110px]'>
                                         <Image src='/icons/other/ArrowRight.svg' width={38} height={38} alt='Go' className='invert'/>
