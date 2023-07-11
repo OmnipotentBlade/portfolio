@@ -10,7 +10,7 @@ const Hero = ({heading, desc}) => {
             <div className='flex items-center justify-center h-screen'>
                 <div className='md:pl-6 text-white z-[2]'>
                     {/* Mobile */}
-                    <div className='flex justify-center md:hidden'>
+                    <div className='flex justify-center md:hidden pt-14'>
                         <Image src='/assets/AhmedLinkedInPortrait.png' priority={true} width={200} height={200} alt='Ahmed Osman' className='imageportrait'/>
                     </div>
                     <h2 className='justify-center w-[320px] md:justify-normal font-semibold heading text-5xl md:text-[54px] lg:text-[64px] xl:text-[68px] xl:w-[500px]'>{heading}</h2>
@@ -32,7 +32,7 @@ const Hero = ({heading, desc}) => {
                     <div className='justify-center pt-6'>
                         <ul>
                             <li className='p-[6px]'>
-                                <button className='flex button_about transition-all hover:brightness-110' onClick={() => router.push('/About')}>
+                                <button className='flex button_about transition-all hover:brightness-110' onClick={() => router.push('/about')}>
                                     <a className='py-3 pl-[18px] pr-[64.35px]'>About</a>
                                     <div className='py-3 pl-[110px]'>
                                         <Image src='/icons/other/ArrowRight.svg' width={38} height={38} alt='Go' className='invert'/>
@@ -41,8 +41,8 @@ const Hero = ({heading, desc}) => {
                             </li>
                             <li className='p-[6px]'>
                                 <button className='flex button_exp_projects transition-all hover:brightness-125' onClick={() => router.push('/about#experience')}>
-                                <a className='py-3 pl-[18px] pr-[0.5px]'>Experience</a>
-                                    <div className='py-3 pl-[110px]'>
+                                <a className='py-3 pl-[18px] pr-[0.5px]'>Skills/Experience</a>
+                                    <div className='py-3 pl-[32px]'>
                                         <Image src='/icons/other/ArrowRight.svg' width={38} height={38} alt='Go' className='invert'/>
                                     </div>
                                 </button>

@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <main className='bg-zinc-900/90'>
-      <NavBar/>
+      <NavBar page='Home'/>
       <div>
         <Hero heading="Ahmed Osman" desc={description}/>
       </div>
