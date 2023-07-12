@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
-      <body className={redhattext.className}>{children}</body>
+      <body className={`${redhattext.className} bg-zinc-900`}>{children}</body>
     </html>
   )
 }
