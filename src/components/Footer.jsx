@@ -22,7 +22,7 @@ const Footer = ({desc}) => {
                             </li>
                         </ul>
                     </div>
-                    <p className='text-xs w-[300px] md:w-auto leading-relaxed md:text-sm pt-3 md:py-3 brightness-90'>{desc}</p>
+                    <p className='hidden md:flex w-[300px] md:w-auto leading-relaxed md:text-sm pt-3 md:py-3 brightness-90'>{desc}</p>
                     <div className='hidden md:block brightness-75'>
                         <ul className='flex'>
                             <li className='px-2'>
@@ -39,7 +39,7 @@ const Footer = ({desc}) => {
                     </div>
                 </div>
                 <div className='flex md:flex-none'>
-                    <div className="p-4 md:pl-12">
+                    <div className="py-4 px-2 md:pl-12">
                         <p className='tracking-wide brightness-95'>About</p>
                         <ul className='py-2 text-sm brightness-[.6]'>
                             <li className='p-[2px]'>
@@ -62,7 +62,7 @@ const Footer = ({desc}) => {
                             </li>
                         </ul>
                     </div>
-                    <div className='p-4'>
+                    <div className='py-4 px-2'>
                         <p className='tracking-wide brightness-95'>Contact</p>
                         <ul className='py-2 text-sm brightness-[.6]'>
                             <li className='p-[2px]'>
