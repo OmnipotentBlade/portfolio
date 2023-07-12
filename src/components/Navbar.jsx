@@ -73,7 +73,7 @@ const NavBar = ({page}) => {
                 <div className='flex pt-[3px] pl-3 tracking-wide'>
                     <span className='px-1 pr-2 text-cyan-300'>Ahmed Osman</span>
                     <span className='pr-2 text-gray-200'>/</span>
-                    <p className='text-blue-200'>{page}</p>
+                    <p className={`text-blue-200 ${page.length > 10 ? 'text-sm pt-[2px]' : null}`}>{page}</p>
                 </div>
             </div>
             <div className='hidden md:flex text-white font-mono max-w-[1240px] m-auto justify-center items-center p-3'>
