@@ -6,7 +6,7 @@ export default function Home() {
   const description = "Electrical & Computer Engineering student passionate in Cybersecurity, Robotics, and Electronics.";
 
   return (
-    <main className='bg-zinc-900/90 bg-fixed'>
+    <main className='bg-zinc-900/90'>
       <NavBar page='Home'/>
       <div>
         <Hero heading="Ahmed Osman" desc={description}/>

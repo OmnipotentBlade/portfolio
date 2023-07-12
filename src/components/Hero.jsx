@@ -6,7 +6,7 @@ const Hero = ({heading, desc}) => {
     const router = useRouter(); 
 
     return (
-        <div className='bg-fixed bg-center bg-cover background'>
+        <div className='bg-scroll md:bg-fixed bg-center bg-cover background'>
             <div className='flex items-center justify-center h-screen'>
                 <div className='md:pl-6 text-white z-[2]'>
                     {/* Mobile */}
