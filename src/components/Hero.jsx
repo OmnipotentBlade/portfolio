@@ -7,7 +7,7 @@ const Hero = ({heading, desc}) => {
 
     return (
         <div className='bg-scroll md:bg-fixed bg-center bg-cover background'>
-            <div className='flex items-center justify-center h-[110vh] md:h-screen'>
+            <div className='flex items-center justify-center h-[120vh] md:h-screen'>
                 <div className='justify-center md:pl-6 text-white z-[2]'>
                     {/* Mobile */}
                     <div className='flex justify-center md:hidden'>
