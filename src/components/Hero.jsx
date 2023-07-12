@@ -10,7 +10,7 @@ const Hero = ({heading, desc}) => {
             <div className='flex items-center justify-center h-screen'>
                 <div className='md:pl-6 text-white z-[2]'>
                     {/* Mobile */}
-                    <div className='flex justify-center md:hidden pt-36'>
+                    <div className='flex justify-center md:hidden pt-60'>
                         <Image src='/assets/AhmedLinkedInPortrait.png' priority={true} width={200} height={200} alt='Ahmed Osman' className='imageportrait'/>
                     </div>
                     <div className='flex md:inline justify-center md:justify-normal'>
@@ -33,7 +33,7 @@ const Hero = ({heading, desc}) => {
                     <div className='flex text-center md:text-left justify-center md:justify-normal'>
                         <p className='justify-center py-5 inline-block font-thin w-[338px] desc leading-normal text-lg md:text-[24px] md:w-[360px] lg:text-[26px] lg:w-[410px] xl:text-[28px] xl:w-[450px]'>{desc}</p>
                     </div>
-                    <div className='pt-6 pb-20 md:pb-0'>
+                    <div className='pt-6 pb-72 md:pb-0'>
                         <ul>
                             <li className='max-md:flex justify-center md:justify-normal p-[6px]'>
                                 <button className='flex max-md:w-[300px] max-md:h-[58px] button_about transition-all hover:brightness-110' onClick={() => router.push('/about')}>
