@@ -36,7 +36,7 @@ const Hero = ({heading, desc}) => {
                     <div className='pt-6 md:pb-0'>
                         <ul>
                             <li className='max-md:flex justify-center md:justify-normal p-[6px]'>
-                                <button className='flex max-md:w-[300px] max-md:h-[58px] button_about transition-all hover:brightness-110' onClick={() => router.push('/about')}>
+                                <button className='flex max-md:w-[300px] max-md:h-[58px] button_about transition-all hover:brightness-110' onClick={() => router.push('/skills-experience#about')}>
                                     <a className='py-3 pl-[18px] pr-[64.35px] max-md:text-2xl'>About</a>
                                     <div className='py-3 pl-[100px] md:pl-[110px]'>
                                         <Image src='/icons/other/ArrowRight.svg' width={38} height={38} alt='Go' className='invert'/>
@@ -44,7 +44,7 @@ const Hero = ({heading, desc}) => {
                                 </button>
                             </li>
                             <li className='max-md:flex justify-center md:justify-normal p-[6px]'>
-                                <button className='flex max-md:w-[300px] max-md:h-[58px] button_exp_projects transition-all hover:brightness-125' onClick={() => router.push('/about#experience')}>
+                                <button className='flex max-md:w-[300px] max-md:h-[58px] button_exp_projects transition-all hover:brightness-125' onClick={() => router.push('/skills-experience')}>
                                     <a className='py-3 pl-[18px] pr-[0.5px] max-md:text-2xl'>Skills/Experience</a>
                                     <div className='py-3 pl-[42px] md:pl-[32px]'>
                                         <Image src='/icons/other/ArrowRight.svg' width={38} height={38} alt='Go' className='invert'/>
