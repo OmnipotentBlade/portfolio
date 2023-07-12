@@ -4,7 +4,10 @@ import { FaBars } from 'react-icons/fa'
 import { useEffect, useState } from 'react';
 
 const NavBar = ({page}) => {
+    const [nav, setNav] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
+
+    const handleNav = () => {setNav(!nav);}
 
     useEffect(() => {
         const handleScroll = () => {
@@ -21,10 +24,48 @@ const NavBar = ({page}) => {
     );
 
     return (
-        <div className={`${page!=='Home' ? null : 'fixed'} top-0 left-0 w-full z-[999] ${isScrolled ? 'backdrop-blur-[10px] ease-in' : ''}`}>
+        <div className={`${page!=='Home' ? null : 'fixed'} top-0 left-0 w-full z-[999] ${isScrolled ? 'backdrop-blur-[10px]' : ''} ${nav ? 'bg-zinc-900 md:bg-transparent' : ''}`}>
             {/* Mobile */}
+            {nav ? 
+                <div className='fixed md:hidden left-0 top-14 w-[65%] h-80 bg-zinc-900/90'>
+                    <div className='p-4 text-white font-mono'>
+                        <ul className='p-2 pb-3'>
+                            <span className='text-gray-400'>About</span>
+                            <li className='pt-2 pl-4'>
+                                <Link href='/' className={`relative ${page==='Home' ? 'text-blue-200' : ''}`}>
+                                    Home
+                                    <span className='absolute opacity-0 transition-opacity'>_</span>
+                                </Link>
+                            </li>
+                            <li className='pt-2 pl-4'>
+                                <Link href='/skills-experience' className={`group hover:brightness-90 relative ${page==='Skills/Experience' ? 'text-blue-200' : ''}`}>
+                                    Skills/Experience
+                                    <span className='absolute opacity-0 group-hover:opacity-100 transition-opacity'>_</span>
+                                </Link>
+                            </li>
+                            <li className='pt-2 pl-4'>
+                                <Link href='/projects' className={`group hover:brightness-90 relative ${page==='Projects' ? 'text-blue-200' : ''}`}>
+                                    Projects
+                                    <span className='absolute opacity-0 group-hover:opacity-100 transition-opacity'>_</span>
+                                </Link>
+                            </li>
+                        </ul>
+                        <ul className='p-2 pt-3'>
+                            <span className='text-gray-400'>Contant Me</span>
+                            <li className='pt-2 pl-4'>
+                                <Link href='/contact' className={`group hover:brightness-90 relative ${page==='Contact' ? 'text-blue-200' : ''}`}>
+                                    Contact
+                                    <span className='absolute opacity-0 group-hover:opacity-100 transition-opacity'>_</span>
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            : null}
             <div className='md:hidden flex font-mono p-4'>
-                <FaBars size={30} className='invert'/>
+                <div onClick={handleNav} className='hover:brightness-90 ease-in'>
+                    <FaBars size={30} className='invert'/>
+                </div>
                 <div className='flex pt-[3px] pl-3 tracking-wide'>
                     <span className='px-1 pr-2 text-cyan-300'>Ahmed Osman</span>
                     <span className='pr-2 text-gray-200'>/</span>
