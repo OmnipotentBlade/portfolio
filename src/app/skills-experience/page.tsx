@@ -42,7 +42,7 @@ export default function Home() {
                                     <h3 className='pt-2 font-medium'>FIRST® Robotics Competition (FRC) Mentor</h3>
                                     <h3 className='pt-2 font-[450]'>Bayside, NY</h3>
                                 </div>
-                                <h3>Team 5599 - "The Sentinels"</h3>
+                                <h3>Team 5599 - &quot;The Sentinels&quot;</h3>
                                 <h3 className='font-[450]'>Jun. 2023 - <span className='italic'>current</span></h3>
                             </div>
                             <div className='flex p-4'>
