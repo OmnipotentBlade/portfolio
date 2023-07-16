@@ -49,14 +49,20 @@ const Footer = ({desc}) => {
                                 </Link>
                             </li>
                             <li className='p-[2px]'>
-                                <Link href='/about' className='group hover:brightness-90'>
+                                <Link href='/skills-experience#about' className='group hover:brightness-90'>
                                     About Me
                                     <span className='absolute opacity-0 group-hover:opacity-100 transition-opacity'>_</span>
                                 </Link>
                             </li>
                             <li className='p-[2px]'>
+                                <Link href='/skills-experience' className='group hover:brightness-90'>
+                                    Skills/Experience
+                                    <span className='absolute opacity-0 group-hover:opacity-100 transition-opacity'>_</span>
+                                </Link>
+                            </li>
+                            <li className='p-[2px]'>
                                 <Link href='/projects' className='group hover:brightness-90'>
-                                    Projects/Experience
+                                    Projects
                                     <span className='absolute opacity-0 group-hover:opacity-100 transition-opacity'>_</span>
                                 </Link>
                             </li>

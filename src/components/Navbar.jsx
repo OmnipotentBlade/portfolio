@@ -27,7 +27,7 @@ const NavBar = ({page}) => {
     return (
         <div className={`${page!=='Home' ? 'bg-zinc-900/90' : 'fixed'} top-0 left-0 w-full z-[999] ${isScrolled ? 'backdrop-blur-[10px]' : ''} ${nav ? 'bg-zinc-900 md:bg-transparent transition-all' : 'transition-all'}`}>
             {/* Mobile Menu */}
-            <div className={`fixed left-0 top-[62px] w-[65%] h-72 bg-zinc-900/90 ${nav ? 'flex transition-opacity' : 'opacity-0 transition-opacity'}`}>
+            <div className={`fixed left-0 top-[62px] w-[65%] h-72 bg-zinc-900/90 rounded-br-xl ${nav ? 'flex transition-opacity' : 'opacity-0 transition-opacity'}`}>
                 <div className={`p-4 text-white font-mono ${nav ? '' : 'hidden'}`}>
                     <ul className='p-2 pb-3'>
                         <span className='text-gray-400'>About</span>
