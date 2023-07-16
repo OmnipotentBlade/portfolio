@@ -23,7 +23,7 @@ export default function Home() {
                         </div>
                         <div className='p-4'>
                             <h2 className='flex md:inline justify-center md:justify-normal text-3xl font-semibold'>Ahmed Osman</h2>
-                            <p className='flex md:inline text-center md:text-normal py-3'>Hey there! I'm Ahmed, an incoming freshman studying Electrical & Computer Engineering at NYIT this fall. I'm extremely passionate about anything STEM, but my all-time favorite areas/fields  have to be CS, Cybersecurity, Robotics, and Electronics. During my free time, I also enjoy learning about technical topics, but I love playing piano and bass, running, playing sports, and competitively playing Smash. I also come back to my high school to mentor students in Robotics for FRC Team 5599, specifically Software Engineering and leadership topics.</p>
+                            <p className='flex md:inline text-center md:text-normal py-3'>Hey there! I&apos;m Ahmed, an incoming freshman studying Electrical & Computer Engineering at NYIT this fall. I&apos;m extremely passionate about anything STEM, but my all-time favorite areas/fields  have to be CS, Cybersecurity, Robotics, and Electronics. During my free time, I also enjoy learning about technical topics, but I love playing piano and bass, running, playing sports, and competitively playing Smash. I also come back to my high school to mentor students in Robotics for FRC Team 5599, specifically Software Engineering and leadership topics.</p>
                             <div className='flex md:inline justify-center md:justify-normal py-1'>
                                 <h2 className='font-medium'>For more information about me, please visit my
                                 <Link href='/contact' className='text-blue-600 hover:brightness-90'> Contact </Link> 
@@ -167,7 +167,7 @@ export default function Home() {
                                     <Image src='/icons/other/bnchs-logo.jpeg' width={500} height={500} alt='BNCHS'/>
                                 </div>
                                 <div className='px-4'>
-                                    <h3 className='font-medium'>Principal's Honor Roll</h3>
+                                    <h3 className='font-medium'>Principal&apos;s Honor Roll</h3>
                                     <h3 className='text-gray-500'>Issued by Benjamin N. Cardozo High School - 2021, 2022</h3>
                                     <ul className='pl-4 list-disc'>
                                         <li>
