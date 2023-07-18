@@ -35,6 +35,11 @@ const Footer = ({desc}) => {
                                     <Image src='/icons/socials/githubwhite.png' className='hover:brightness-90 transition' width={28} height={28} alt='GitHub Profile'/>
                                 </a>
                             </li>
+                            <li className='px-[6px]'>
+                                <a href='mailto:ahmed@aosman.app'>
+                                    <Image src='/icons/socials/email.svg' className='hover:brightness-90 transition' width={30} height={30} alt='Email'/>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

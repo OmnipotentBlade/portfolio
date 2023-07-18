@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image';
 import { useRouter } from 'next/navigation'
+import {CiMail} from 'react-icons/ci'
 
 const Hero = ({heading, desc}) => {
     const router = useRouter(); 
@@ -28,6 +29,11 @@ const Hero = ({heading, desc}) => {
                                     <Image src='/icons/socials/githubwhite.png' className='hover:brightness-90 transition' width={40} height={40} alt='GitHub Profile'/>
                                 </a>
                             </li>
+                            <li className='px-3'>
+                                <a href='mailto:ahmed@aosman.app'>
+                                    <Image src='/icons/socials/email.svg' className='hover:brightness-90 transition' width={42} height={42} alt='Email'/>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div className='flex text-center md:text-left justify-center md:justify-normal'>
@@ -44,7 +50,7 @@ const Hero = ({heading, desc}) => {
                                 </button>
                             </li>
                             <li className='max-md:flex justify-center md:justify-normal p-[6px]'>
-                                <button className='flex max-md:w-[300px] max-md:h-[58px] button_exp_projects transition-all hover:brightness-125' onClick={() => router.push('/skills-experience')}>
+                                <button className='flex max-md:w-[300px] max-md:h-[58px] button_exp_projects transition-all hover:brightness-125' onClick={() => router.push('/skills-experience#exp')}>
                                     <a className='py-3 pl-[18px] pr-[0.5px] max-md:text-2xl'>Skills/Experience</a>
                                     <div className='py-3 pl-[42px] md:pl-[32px]'>
                                         <Image src='/icons/other/ArrowRight.svg' width={38} height={38} alt='Go' className='invert'/>

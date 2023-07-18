@@ -1,7 +1,7 @@
 import NavBar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-export default function Home() {
+export default function Contact() {
     const description = "Electrical & Computer Engineering student passionate in Cybersecurity, Robotics, and Electronics.";
   
     return (
