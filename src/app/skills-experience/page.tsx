@@ -143,7 +143,7 @@ export default function SkillsExp() {
                 </div>
                 <div className='p-4'>
                     <h2 className='flex pb-2 md:block justify-center md:justify-normal font-semibold text-3xl md:text-[40px]'>Recognitions/Awards</h2>
-                    <div className='p-2 pt-6 md:py-8 md:px-10'>
+                    <div className='flex p-2 pt-6 md:py-8 md:px-10 justify-center'>
                         <ul className='list-disc'>
                             <li className='flex text-[15px] md:text-base'>
                                 {/* Mobile */}
