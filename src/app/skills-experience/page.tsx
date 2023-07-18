@@ -146,10 +146,14 @@ export default function SkillsExp() {
                     <div className='p-2 pt-6 md:py-8 md:px-10'>
                         <ul className='list-disc'>
                             <li className='flex text-[15px] md:text-base'>
-                                <div className='justify-center max-w-[54px]'>
-                                    <Image src='/icons/other/collegeboard-logo.png' width={500} height={500} alt='CollegeBoard' className='rounded-lg'/>
+                                {/* Mobile */}
+                                <div className='md:hidden justify-center'>
+                                    <Image src='/icons/other/collegeboard-logo.png' width={48} height={48} alt='CollegeBoard' className='rounded-lg'/>
                                 </div>
-                                <div className='px-4'>
+                                <div className='hidden md:block justify-center'>
+                                    <Image src='/icons/other/collegeboard-logo.png' width={54} height={54} alt='CollegeBoard' className='rounded-lg'/>
+                                </div>
+                                <div className='px-4 max-w-[290px] md:max-w-2xl'>
                                     <h3 className='font-medium'>AP Scholar</h3>
                                     <div className='text-gray-500 md:flex'>
                                         <h3>Issued by The College Board</h3>
@@ -166,10 +170,14 @@ export default function SkillsExp() {
                                 </div>
                             </li>
                             <li className='pt-6 flex'>
-                                <div className='justify-center max-w-[54px]'>
-                                    <Image src='/icons/other/ncl-logo.png' width={500} height={500} alt='NCL' className='flex'/>
+                                {/* Mobile */}
+                                <div className='md:hidden justify-center'>
+                                    <Image src='/icons/other/ncl-logo.png' width={48} height={48} alt='NCL'/>
                                 </div>
-                                <div className='px-4 text-[15px] md:text-base'>
+                                <div className='hidden md:block justify-center'>
+                                    <Image src='/icons/other/ncl-logo.png' width={54} height={54} alt='NCL'/>
+                                </div>
+                                <div className='px-4 max-w-[290px] md:max-w-2xl text-[15px] md:text-base'>
                                     <h3 className='font-medium'>National Cyber League (NCL) High School Power Rankings</h3>
                                     <div className='text-gray-500 md:flex'>
                                         <h3>Issued by Cyber Skyline</h3>
@@ -187,10 +195,14 @@ export default function SkillsExp() {
                                 </div>
                             </li>
                             <li className='flex pt-6'>
-                                <div className='justify-center max-w-[54px]'>
-                                    <Image src='/icons/other/ncl-logo.png' width={500} height={500} alt='NCL' className='flex'/>
+                                {/* Mobile */}
+                                <div className='md:hidden justify-center'>
+                                    <Image src='/icons/other/ncl-logo.png' width={48} height={48} alt='NCL'/>
                                 </div>
-                                <div className='px-4 text-[15px] md:text-base'>
+                                <div className='hidden md:block justify-center'>
+                                    <Image src='/icons/other/ncl-logo.png' width={54} height={54} alt='NCL'/>
+                                </div>
+                                <div className='px-4 max-w-[290px] md:max-w-2xl text-[15px] md:text-base'>
                                     <h3 className='font-medium'>National Cyber League (NCL) Excellence Award</h3>
                                     <div className='text-gray-500 md:flex'>
                                         <h3>Issued by Cyber Skyline</h3>
@@ -208,10 +220,14 @@ export default function SkillsExp() {
                                 </div>
                             </li>
                             <li className='pt-6 flex text-[15px] md:text-base'>
-                                <div className='justify-center max-w-[54px]'>
-                                    <Image src='/icons/other/bnchs-logo.jpeg' width={500} height={500} alt='BNCHS'/>
+                                {/* Mobile */}
+                                <div className='md:hidden justify-center'>
+                                    <Image src='/icons/other/bnchs-logo.jpeg' width={48} height={48} alt='BNCHS'/>
                                 </div>
-                                <div className='px-4'>
+                                <div className='hidden md:block justify-center'>
+                                    <Image src='/icons/other/bnchs-logo.jpeg' width={54} height={54} alt='BNCHS'/>
+                                </div>
+                                <div className='px-4 max-w-[290px] md:max-w-2xl'>
                                     <h3 className='font-medium'>Principal&apos;s Honor Roll</h3>
                                     <div className='text-gray-500 md:flex'>
                                         <h3>Issued by Benjamin N. Cardozo High School</h3>
@@ -239,6 +255,7 @@ export default function SkillsExp() {
                                 <div className='hidden md:inline'>
                                     <FaJava size={72}/>
                                 </div>
+                                {/* Mobile */}
                                 <div className='md:hidden'>
                                     <FaJava size={48}/>
                                 </div>
@@ -249,6 +266,7 @@ export default function SkillsExp() {
                                 <div className='hidden md:inline'>
                                     <SiCplusplus size={72}/>
                                 </div>
+                                {/* Mobile */}
                                 <div className='md:hidden'>
                                     <SiCplusplus size={48}/>
                                 </div>
@@ -259,6 +277,7 @@ export default function SkillsExp() {
                                 <div className='hidden md:inline'>
                                     <FaPython size={72}/>
                                 </div>
+                                {/* Mobile */}
                                 <div className='md:hidden'>
                                     <div className='flex justify-center items-center'>
                                         <FaPython size={48}/>
@@ -271,6 +290,7 @@ export default function SkillsExp() {
                                 <div className='hidden md:inline'>
                                     <SiGnubash size={72}/>
                                 </div>
+                                {/* Mobile */}
                                 <div className='md:hidden'>
                                     <SiGnubash size={48}/>
                                 </div>
@@ -297,6 +317,7 @@ export default function SkillsExp() {
                             </div>
                         </div>
                     </div>
+                    {/* Mobile */}
                     <div className='md:hidden pb-2 flex justify-center items-center'>
                         <div className='p-2 mx-[10px] outline outline-gray-300 rounded-lg'>
                             <div className='flex justify-center items-center h-[48px]'>
@@ -326,6 +347,7 @@ export default function SkillsExp() {
                                             <SiNextdotjs size={64}/>
                                         </div>
                                     </div>
+                                    {/* Mobile */}
                                     <div className='md:hidden'>
                                         <div className='flex justify-center items-center'>
                                             <SiNextdotjs size={48}/>
@@ -340,6 +362,7 @@ export default function SkillsExp() {
                                             <SiTailwindcss size={72}/>
                                         </div>
                                     </div>
+                                    {/* Mobile */}
                                     <div className='md:hidden'>
                                         <div className='flex justify-center'>
                                             <SiTailwindcss size={48}/>
@@ -359,6 +382,7 @@ export default function SkillsExp() {
                                             <FaGitAlt size={72}/>
                                         </div>
                                     </div>
+                                    {/* Mobile */}
                                     <div className='md:hidden'>
                                         <div className='flex justify-center items-center'>
                                             <FaGitAlt size={48}/>
@@ -373,6 +397,7 @@ export default function SkillsExp() {
                                             <FaGithub size={72}/>
                                         </div>
                                     </div>
+                                    {/* Mobile */}
                                     <div className='md:hidden'>
                                         <div className='flex justify-center'>
                                             <FaGithub size={48}/>
