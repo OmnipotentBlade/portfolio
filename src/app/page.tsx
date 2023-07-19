@@ -3,12 +3,15 @@ import Hero from '../components/Hero';
 import Footer from '../components/Footer'
 
 export default function Home() {
+  const description = "Electrical & Computer Engineering student passionate in Cybersecurity, Robotics, and Electronics.";
+
   return (
-    <main>
-      <NavBar/>
+    <main className='bg-zinc-900/90'>
+      <NavBar page='Home'/>
       <div>
-        <Hero heading="Ahmed Osman" desc="Electrical & Computer Engineering student passionate in Cybersecurity, Robotics, and Electronics."/>
+        <Hero heading="Ahmed Osman" desc={description}/>
       </div>
+      <Footer desc={description}/>
     </main>
   )
 }
