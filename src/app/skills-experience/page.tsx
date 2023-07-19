@@ -1,24 +1,23 @@
 'use client'
 import NavBar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import portrait from 'public/assets/AhmedLinkedInPortrait.png';
 import Image from "next/image";
 import Link from 'next/link';
 import { FaJava, FaPython, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub } from 'react-icons/fa';
 import { SiCplusplus, SiGnubash, SiJavascript, SiNextdotjs, SiTailwindcss } from 'react-icons/si'
 import { useState } from "react";
 
-const ToggleParagraph: React.FC<{ text: string}> = ({ text}) => {
+const ToggleParagraph: React.FC<{text: string}> = ({ text }) => {
     const [showMore, setShowMore] = useState(false);
   
     const toggleShowMore = () => {
         setShowMore(!showMore);
     };
-  
+
     return (
         <div>
-            <p className={`${showMore ? 'block' : `line-clamp-[3]`}`}>
-                {text}
-            </p>
+            <p className={`${showMore ? 'block' : `line-clamp-[3]`}`}>{text}</p>
             {!showMore ? (
                 <button className="text-blue-600" onClick={toggleShowMore}>show more</button>
             ) :
@@ -41,7 +40,7 @@ export default function SkillsExp() {
                     <div className='md:flex p-4'>
                         <div className='flex md:block justify-center md:justify-normal md:py-6 px-2'>
                             <div className='w-32 h-32'>
-                                <Image src='/assets/AhmedLinkedInPortrait.png' priority={true} width={150} height={150} alt='Ahmed Osman' className='rounded-full ring-2 ring-gray-400'/>
+                                <Image src={portrait} priority={true} placeholder='blur' width={150} height={150} alt='Ahmed Osman' className='rounded-full ring-2 ring-gray-400'/>
                             </div>
                         </div>
                         <div className='p-4'>

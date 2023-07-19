@@ -1,7 +1,7 @@
 'use client'
+import portrait from 'public/assets/AhmedLinkedInPortrait.png';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation'
-import {CiMail} from 'react-icons/ci'
 
 const Hero = ({heading, desc}) => {
     const router = useRouter(); 
@@ -12,7 +12,7 @@ const Hero = ({heading, desc}) => {
                 <div className='justify-center md:pl-6 text-white z-[2]'>
                     {/* Mobile */}
                     <div className='flex justify-center md:hidden'>
-                        <Image src='/assets/AhmedLinkedInPortrait.png' priority={true} width={200} height={200} alt='Ahmed Osman' className='imageportrait'/>
+                        <Image src={portrait} priority={true} placeholder='blur' width={200} height={200} alt='Ahmed Osman' className='imageportrait'/>
                     </div>
                     <div className='flex md:inline justify-center md:justify-normal'>
                         <h2 className='justify-center w-[320px] font-semibold heading text-[40px] min-[768px]:text-5xl min-[815px]:text-[54px] lg:text-[64px] xl:text-[68px] xl:w-[500px]'>{heading}</h2>
@@ -69,7 +69,7 @@ const Hero = ({heading, desc}) => {
                     </div>
                 </div>
                 <div className='hidden md:block py-[-5px] p-3 pb-[100px]'>
-                    <Image src='/assets/AhmedLinkedInPortrait.png' priority={true} width={380} height={380} alt='Ahmed Osman' className='imageportrait'/>
+                    <Image src={portrait} priority={true} placeholder='blur' width={380} height={380} alt='Ahmed Osman' className='imageportrait'/>
                 </div>
             </div>
         </div>
