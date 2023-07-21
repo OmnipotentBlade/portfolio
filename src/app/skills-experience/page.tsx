@@ -1,4 +1,3 @@
-'use client'
 import NavBar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import portrait from 'public/assets/AhmedLinkedInPortrait.png';
@@ -6,26 +5,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import { FaJava, FaPython, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub } from 'react-icons/fa';
 import { SiCplusplus, SiGnubash, SiJavascript, SiNextdotjs, SiTailwindcss } from 'react-icons/si'
-import { useState } from "react";
-
-const ToggleParagraph: React.FC<{text: string}> = ({ text }) => {
-    const [showMore, setShowMore] = useState(false);
-  
-    const toggleShowMore = () => {
-        setShowMore(!showMore);
-    };
-
-    return (
-        <div>
-            <p className={`${showMore ? 'block' : `line-clamp-[3]`}`}>{text}</p>
-            {!showMore ? (
-                <button className="text-blue-600" onClick={toggleShowMore}>show more</button>
-            ) :
-                <button className="text-blue-600" onClick={toggleShowMore}>show less</button>
-            }
-        </div>
-    );
-};
+import ToggleParagraph from "../util/ToggleParagraph";
 
 export default function SkillsExp() {
     const description = "Electrical & Computer Engineering student passionate in Cybersecurity, Robotics, and Electronics.";
@@ -94,7 +74,7 @@ export default function SkillsExp() {
                             <div className='flex p-4'>
                                 <ul className='pl-2 list-disc'>
                                     <li>
-                                        <ToggleParagraph text='Lead members in designing, programming, wiring, and building multiple 100+ lb. robots in order to
+                                        <ToggleParagraph lines="3" text='Lead members in designing, programming, wiring, and building multiple 100+ lb. robots in order to
                                             compete in FIRST Robotics city-wide and national competitions, helped organize fundraising
                                             campaigns for our team, helped sell items in the aforementioned campaigns, and taught
                                             members the foundations of programming in the Java programming language and advanced
@@ -142,7 +122,7 @@ export default function SkillsExp() {
                 </div>
                 <div className='p-4'>
                     <h2 className='flex pb-2 md:block justify-center md:justify-normal font-semibold text-3xl md:text-[40px]'>Recognitions/Awards</h2>
-                    <div className='flex p-2 pt-6 md:py-8 md:px-10 justify-center'>
+                    <div className='p-2 pt-6 md:py-8 md:px-10'>
                         <ul className='list-disc'>
                             <li className='flex text-[15px] md:text-base'>
                                 {/* Mobile */}
