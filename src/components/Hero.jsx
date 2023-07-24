@@ -72,6 +72,10 @@ const Hero = ({heading, desc}) => {
                     <Image src={portrait} priority={true} placeholder='blur' width={380} height={380} alt='Ahmed Osman' className='imageportrait'/>
                 </div>
             </div>
+            <h3 className='flex p-3 justify-end text-gray-400 font-semibold text-sm'>
+                Mark Thunis on
+                <a href='https://unsplash.com/photos/Dw3APludDpE' className='hover:brightness-110'>&nbsp;<u>Unsplash</u></a>
+            </h3>
         </div>
     );
 };
