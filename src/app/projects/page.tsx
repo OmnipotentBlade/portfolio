@@ -73,11 +73,11 @@ export default function Projects() {
                                 </div>
                                 <div className='flex justify-between'>
                                     <div className='flex py-2 pt-5 font-mono text-xs md:text-sm overflow-x-auto'>
-                                        <div className='flex mx-1 bg-black/60 rounded-xl md:w-[84px] h-6 items-center justify-center'>
-                                            <span className='px-2 md:px-0 text-gray-200'>Next.js</span>
-                                        </div>
                                         <div className='flex mx-1 bg-black/60 rounded-xl md:w-[104px] h-6 items-center justify-center'>
                                             <span className='px-2 md:px-0 text-gray-200'>TypeScript</span>
+                                        </div>
+                                        <div className='flex mx-1 bg-black/60 rounded-xl md:w-[84px] h-6 items-center justify-center'>
+                                            <span className='px-2 md:px-0 text-gray-200'>Next.js</span>
                                         </div>
                                         <div className='flex mx-1 bg-black/60 rounded-xl md:w-16 h-6 items-center justify-center'>
                                             <span className='px-2 md:px-0 text-gray-200'>React</span>
@@ -272,6 +272,10 @@ export default function Projects() {
                     </div>
                     
                 </div>
+                <h3 className='flex p-3 justify-end text-gray-400 font-semibold text-sm'>
+                    Wes Hicks on
+                    <a href='https://unsplash.com/photos/TDDPRyUe0LI' className='hover:brightness-110'>&nbsp;<u>Unsplash</u></a>
+                </h3>
             </div>
             <Footer desc={description}/>
         </main>
