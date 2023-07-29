@@ -28,7 +28,7 @@ export default function SkillsExp() {
                             <p className='flex md:block text-center md:text-start text-sm md:text-base py-3'>Hey there! I&apos;m Ahmed, an incoming freshman studying Electrical & Computer Engineering at NYIT this Fall. I&apos;m extremely passionate about anything STEM, but my all-time favorite areas/fields  have to be CS, Cybersecurity, Robotics, and Electronics. During my free time, I also enjoy learning about technical topics, but I love playing piano and bass, running, playing sports, and competitively playing Smash. I also come back to my high school to mentor students in Robotics for FRC Team 5599, specifically Software Engineering and leadership topics.</p>
                             <div className='flex md:block text-center md:text-start py-1'>
                                 <h2 className='font-medium text-sm md:text-base'>
-                                    For more information about me, please visit my
+                                    For more information about me, or to reach out, please visit my
                                     <Link href='/contact' className='text-blue-600 hover:brightness-90'> Contact </Link> 
                                     page!
                                 </h2>

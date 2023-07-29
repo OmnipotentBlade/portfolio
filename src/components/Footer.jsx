@@ -65,7 +65,7 @@ const Footer = ({desc}) => {
                                 </Link>
                             </li>
                             <li className='p-[2px]'>
-                                <Link href='/skills-experience' className='group hover:brightness-90'>
+                                <Link href='/skills-experience#exp' className='group hover:brightness-90'>
                                     Skills/Experience
                                     <span className='absolute opacity-0 group-hover:opacity-100 transition-opacity'>_</span>
                                 </Link>

@@ -21,7 +21,7 @@ export default function Projects() {
                     <div className='flex justify-center min-[896px]:justify-normal min-[960px]:px-8 min-[1152px]:px-32 py-3 min-[896px]:py-96'>
                         <div>
                             <h1 className='p-2 text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-cyan-500 to-blue-600'>Projects<span className='hidden md:inline blink bg-clip-text bg-gradient-to-b from-cyan-500 to-blue-600'>_</span></h1>
-                            <h1 className='p-1 flex justify-center text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-cyan-200 to-sky-500 md:from-gray-400 md:to-gray-600'>2021-2023</h1>
+                            <h1 className='p-1 flex justify-center text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-gray-400 to-gray-600'>2021-2023</h1>
                         </div>
                     </div>
                     <div className='px-4 md:px-8 py-8 md:py-2'>
