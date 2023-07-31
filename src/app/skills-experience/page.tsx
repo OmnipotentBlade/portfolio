@@ -127,10 +127,10 @@ export default function SkillsExp() {
                             <li className='flex text-[15px] md:text-base'>
                                 {/* Mobile */}
                                 <div className='md:hidden justify-center'>
-                                    <Image src='/icons/other/collegeboard-logo.png' width={48} height={48} alt='CollegeBoard' className='rounded-lg'/>
+                                    <Image src='/icons/skillsexp/collegeboard-logo.png' width={48} height={48} alt='CollegeBoard' className='rounded-lg'/>
                                 </div>
                                 <div className='hidden md:block justify-center'>
-                                    <Image src='/icons/other/collegeboard-logo.png' width={54} height={54} alt='CollegeBoard' className='rounded-lg'/>
+                                    <Image src='/icons/skillsexp/collegeboard-logo.png' width={54} height={54} alt='CollegeBoard' className='rounded-lg'/>
                                 </div>
                                 <div className='px-4 max-w-[290px] md:max-w-2xl'>
                                     <h3 className='font-medium'>AP Scholar</h3>
@@ -151,10 +151,10 @@ export default function SkillsExp() {
                             <li className='pt-6 flex'>
                                 {/* Mobile */}
                                 <div className='md:hidden justify-center'>
-                                    <Image src='/icons/other/ncl-logo.png' width={48} height={48} alt='NCL'/>
+                                    <Image src='/icons/skillsexp/ncl-logo.png' width={48} height={48} alt='NCL'/>
                                 </div>
                                 <div className='hidden md:block justify-center'>
-                                    <Image src='/icons/other/ncl-logo.png' width={54} height={54} alt='NCL'/>
+                                    <Image src='/icons/skillsexp/ncl-logo.png' width={54} height={54} alt='NCL'/>
                                 </div>
                                 <div className='px-4 max-w-[290px] md:max-w-2xl text-[15px] md:text-base'>
                                     <h3 className='font-medium'>National Cyber League (NCL) High School Power Rankings</h3>
@@ -176,10 +176,10 @@ export default function SkillsExp() {
                             <li className='flex pt-6'>
                                 {/* Mobile */}
                                 <div className='md:hidden justify-center'>
-                                    <Image src='/icons/other/ncl-logo.png' width={48} height={48} alt='NCL'/>
+                                    <Image src='/icons/skillsexp/ncl-logo.png' width={48} height={48} alt='NCL'/>
                                 </div>
                                 <div className='hidden md:block justify-center'>
-                                    <Image src='/icons/other/ncl-logo.png' width={54} height={54} alt='NCL'/>
+                                    <Image src='/icons/skillsexp/ncl-logo.png' width={54} height={54} alt='NCL'/>
                                 </div>
                                 <div className='px-4 max-w-[290px] md:max-w-2xl text-[15px] md:text-base'>
                                     <h3 className='font-medium'>National Cyber League (NCL) Excellence Award</h3>
@@ -201,10 +201,10 @@ export default function SkillsExp() {
                             <li className='pt-6 flex text-[15px] md:text-base'>
                                 {/* Mobile */}
                                 <div className='md:hidden justify-center'>
-                                    <Image src='/icons/other/bnchs-logo.jpeg' width={48} height={48} alt='BNCHS'/>
+                                    <Image src='/icons/skillsexp/bnchs-logo.jpeg' width={48} height={48} alt='BNCHS'/>
                                 </div>
                                 <div className='hidden md:block justify-center'>
-                                    <Image src='/icons/other/bnchs-logo.jpeg' width={54} height={54} alt='BNCHS'/>
+                                    <Image src='/icons/skillsexp/bnchs-logo.jpeg' width={54} height={54} alt='BNCHS'/>
                                 </div>
                                 <div className='px-4 max-w-[290px] md:max-w-2xl'>
                                     <h3 className='font-medium'>Principal&apos;s Honor Roll</h3>

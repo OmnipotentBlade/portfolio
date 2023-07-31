@@ -32,11 +32,11 @@ export default function Projects() {
                             <div className='flex justify-between'>
                                 <div className='flex'>
                                     <div className='hidden md:block p-1'>
-                                        <Image src={portfolio} placeholder='blur' width={64} height={64} alt='Website' className='rounded-[14px]'/>
+                                        <Image src={portfolio} placeholder='blur' width={64} height={64} alt='Website' className='rounded-[14px]' quality={100}/>
                                     </div>
                                     {/* Mobile */}
                                     <div className='md:hidden p-1'>
-                                        <Image src={portfolio} placeholder='blur' width={48} height={48} alt='Website' className='rounded-lg'/>
+                                        <Image src={portfolio} placeholder='blur' width={48} height={48} alt='Website' className='rounded-lg' quality={100}/>
                                     </div>
                                     <div className='flex items-center px-2 md:px-[10px] md:py-2'>
                                         <div>
@@ -220,11 +220,11 @@ export default function Projects() {
                             <div className='flex justify-between'>
                                 <div className='flex'>
                                     <div className='hidden md:block p-1'>
-                                        <Image src={prgmmgr} placeholder='blur' width={64} height={64} alt='ProgramManager' className='rounded-[14px]'/>
+                                        <Image src={prgmmgr} placeholder='blur' width={64} height={64} alt='ProgramManager' className='rounded-[14px]' quality={100}/>
                                     </div>
                                     {/* Mobile */}
                                     <div className='md:hidden p-1'>
-                                        <Image src={prgmmgr} placeholder='blur' width={48} height={48} alt='ProgramManager' className='rounded-lg'/>
+                                        <Image src={prgmmgr} placeholder='blur' width={48} height={48} alt='ProgramManager' className='rounded-lg' quality={100}/>
                                     </div>
                                     <div className='flex items-center px-2 md:px-[10px] py-2'>
                                         <h2 className='text-lg md:text-xl font-semibold text-gray-300'>ProgramManager</h2>
