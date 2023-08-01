@@ -32,7 +32,7 @@ export default function Contact() {
                             <div className='flex justify-between'>
                                 <p className='p-2 text-gray-300 text-center font-inter text-lg md:text-xl'>
                                     If you want to get in touch with me, or have any questions, concerns, or inquiries,
-                                    send me an email and I'll get back to you as soon as possible!
+                                    send me an email and I&apos;ll get back to you as soon as possible!
                                 </p>
                             </div>
                         </div>
