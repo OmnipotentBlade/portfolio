@@ -8,7 +8,7 @@ export default function Contact() {
     return (
         <main className="font-sans bg-[url('/assets/backgroundcontact.jpg/')] bg-scroll bg-center bg-cover h-[100vh]">
             <NavBar page='Contact'/>
-            <div className='p-4 h-[80vh] md:h-[75vh]'>
+            <div className='p-4 h-[100vh] md:h-[75vh]'>
                 <div className='p-4 pb-2'>
                     <div className='flex justify-center items-center'>
                         <h1 className='flex justify-center px-6 py-8 pb-6 text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-cyan-400 to-blue-600'>Contact Me</h1>
@@ -28,7 +28,7 @@ export default function Contact() {
                         </ul>
                     </div>
                     <div className='flex p-4 justify-center items-center'>
-                        <div className='p-4 md:w-2/5 bg-gray-800/50 outline outline-cyan-900/70 rounded-xl'>
+                        <div className='p-4 md:w-1/2 lg:w-2/5 bg-gray-800/50 outline outline-cyan-900/70 rounded-xl'>
                             <div className='flex justify-between'>
                                 <p className='p-2 text-gray-300 text-center font-inter text-lg md:text-xl'>
                                     If you want to get in touch with me, or have any questions, concerns, or inquiries,
