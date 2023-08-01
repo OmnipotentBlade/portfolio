@@ -8,7 +8,7 @@ export default function Contact() {
     return (
         <main className="font-sans bg-[url('/assets/backgroundcontact.jpg/')] bg-scroll bg-center bg-cover h-[100vh]">
             <NavBar page='Contact'/>
-            <div className='p-4 h-[70vh]'>
+            <div className='p-4 h-[80vh] md:h-[75vh]'>
                 <div className='p-4 pb-2'>
                     <div className='flex justify-center items-center'>
                         <h1 className='flex justify-center px-6 py-8 pb-6 text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-cyan-400 to-blue-600'>Contact Me</h1>
@@ -17,20 +17,20 @@ export default function Contact() {
                         <ul className='flex justify-center md:justify-normal'>
                             <li className='px-4'>
                                 <a href='https://www.linkedin.com/in/aosma/'>
-                                    <Image src='/icons/socials/linkedinwhite.png' className='hover:brightness-90 transition opacity-80' width={40} height={40} alt='LinkedIn Profile'/>
+                                    <Image src='/icons/socials/linkedinwhite.png' className='hover:brightness-[.7] transition' width={40} height={40} alt='LinkedIn Profile'/>
                                 </a>
                             </li>
                             <li className='px-3'>
                                 <a href='mailto:ahmed@aosman.app'>
-                                    <Image src='/icons/socials/email.svg' className='hover:brightness-90 transition opacity-80' width={42} height={42} alt='Email'/>
+                                    <Image src='/icons/socials/email.svg' className='hover:brightness-90 transition' width={42} height={42} alt='Email'/>
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div className='flex p-4 justify-center items-center'>
-                        <div className='p-4 w-2/5 bg-gray-800/50 outline outline-cyan-900/70 rounded-xl'>
+                        <div className='p-4 md:w-2/5 bg-gray-800/50 outline outline-cyan-900/70 rounded-xl'>
                             <div className='flex justify-between'>
-                                <p className='p-2 text-gray-300 text-center font-inter text-xl'>
+                                <p className='p-2 text-gray-300 text-center font-inter text-lg md:text-xl'>
                                     If you want to get in touch with me, or have any questions, concerns, or inquiries,
                                     send me an email and I'll get back to you as soon as possible!
                                 </p>
@@ -53,9 +53,9 @@ export default function Contact() {
                         </a>
                         <div className='my-6'/>
                         <a href='https://linkedin.com/in/aosma' className='flex justify-center'>
-                            <button className='p-3 rounded-lg outline outline-cyan-900/90 bg-slate-800/90'>
+                            <button className='p-3 rounded-lg outline outline-cyan-900/90 bg-slate-800/90 hover:brightness-110 transition-all'>
                                 <div className='flex justify-between'>
-                                <Image src='/icons/socials/linkedincolor.png' className='hover:brightness-90 transition opacity-80' width={22} height={22} alt='LinkedIn'/>
+                                    <Image src='/icons/socials/linkedincolor.png' width={22} height={22} alt='LinkedIn'/>
                                     <span className='pl-2 text-white font-inter'>LinkedIn</span>
                                 </div>
                             </button>
