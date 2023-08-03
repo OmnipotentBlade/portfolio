@@ -272,7 +272,7 @@ export default function Projects() {
                     </div>
                     
                 </div>
-                <h3 className='flex p-3 justify-end text-gray-400 font-semibold text-sm'>
+                <h3 className='flex p-3 justify-end text-gray-500 font-semibold text-sm'>
                     Wes Hicks on
                     <a href='https://unsplash.com/photos/TDDPRyUe0LI' className='hover:brightness-110'>&nbsp;<u>Unsplash</u></a>
                 </h3>
