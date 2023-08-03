@@ -1,6 +1,6 @@
 import NavBar from '@/components/Navbar';
 import Hero from '../components/Hero';
-import Footer from '../components/Footer'
+import Footer from '../components/Footer';
 
 export default function Home() {
   const description = "Electrical & Computer Engineering student passionate in Cybersecurity, Robotics, and Electronics.";

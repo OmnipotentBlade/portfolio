@@ -14,14 +14,14 @@ export default function Projects() {
     const description = "Electrical & Computer Engineering student passionate in Cybersecurity, Robotics, and Electronics.";
 
     return (
-        <main className="font-sans bg-[url('/assets/backgroundproj.jpg/')] bg-fixed bg-center bg-cover h-auto">
+        <main className="font-sans bg-[url('/assets/backgroundproj.jpg/')] bg-scroll md:bg-fixed bg-center md:bg-cover h-auto">
             <NavBar page='Projects'/>
             <div className='p-4'>
                 <div className='min-[896px]:flex justify-center'>
                     <div className='flex justify-center min-[896px]:justify-normal min-[960px]:px-8 min-[1152px]:px-32 py-3 min-[896px]:py-96'>
                         <div>
                             <h1 className='p-2 text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-cyan-500 to-blue-600'>Projects<span className='hidden md:inline blink bg-clip-text bg-gradient-to-b from-cyan-500 to-blue-600'>_</span></h1>
-                            <h1 className='p-1 flex justify-center text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-cyan-200 to-sky-500 md:from-gray-400 md:to-gray-600'>2021-2023</h1>
+                            <h1 className='p-1 flex justify-center text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-gray-400 to-gray-600'>2021-2023</h1>
                         </div>
                     </div>
                     <div className='px-4 md:px-8 py-8 md:py-2'>
@@ -32,11 +32,11 @@ export default function Projects() {
                             <div className='flex justify-between'>
                                 <div className='flex'>
                                     <div className='hidden md:block p-1'>
-                                        <Image src={portfolio} placeholder='blur' width={64} height={64} alt='Website' className='rounded-[14px]'/>
+                                        <Image src={portfolio} placeholder='blur' width={64} height={64} alt='Website' className='rounded-[14px]' quality={100}/>
                                     </div>
                                     {/* Mobile */}
                                     <div className='md:hidden p-1'>
-                                        <Image src={portfolio} placeholder='blur' width={48} height={48} alt='Website' className='rounded-lg'/>
+                                        <Image src={portfolio} placeholder='blur' width={48} height={48} alt='Website' className='rounded-lg' quality={100}/>
                                     </div>
                                     <div className='flex items-center px-2 md:px-[10px] md:py-2'>
                                         <div>
@@ -220,11 +220,11 @@ export default function Projects() {
                             <div className='flex justify-between'>
                                 <div className='flex'>
                                     <div className='hidden md:block p-1'>
-                                        <Image src={prgmmgr} placeholder='blur' width={64} height={64} alt='ProgramManager' className='rounded-[14px]'/>
+                                        <Image src={prgmmgr} placeholder='blur' width={64} height={64} alt='ProgramManager' className='rounded-[14px]' quality={100}/>
                                     </div>
                                     {/* Mobile */}
                                     <div className='md:hidden p-1'>
-                                        <Image src={prgmmgr} placeholder='blur' width={48} height={48} alt='ProgramManager' className='rounded-lg'/>
+                                        <Image src={prgmmgr} placeholder='blur' width={48} height={48} alt='ProgramManager' className='rounded-lg' quality={100}/>
                                     </div>
                                     <div className='flex items-center px-2 md:px-[10px] py-2'>
                                         <h2 className='text-lg md:text-xl font-semibold text-gray-300'>ProgramManager</h2>
@@ -272,7 +272,7 @@ export default function Projects() {
                     </div>
                     
                 </div>
-                <h3 className='flex p-3 justify-end text-gray-400 font-semibold text-sm'>
+                <h3 className='flex p-3 justify-end text-gray-500 font-semibold text-sm'>
                     Wes Hicks on
                     <a href='https://unsplash.com/photos/TDDPRyUe0LI' className='hover:brightness-110'>&nbsp;<u>Unsplash</u></a>
                 </h3>
