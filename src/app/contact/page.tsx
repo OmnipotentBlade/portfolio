@@ -6,9 +6,9 @@ export default function Contact() {
     const description = "Electrical & Computer Engineering student passionate in Cybersecurity, Robotics, and Electronics.";
   
     return (
-        <main className="font-sans bg-[url('/assets/backgroundcontact.jpg/')] bg-scroll bg-center bg-cover h-[100vh]">
+        <main className="font-sans">
             <NavBar page='Contact'/>
-            <div className='p-4 h-[100vh] md:h-[75vh]'>
+            <div className="flex flex-col p-4 bg-[url('/assets/backgroundcontact.jpg/')] bg-scroll bg-center bg-cover h-[90vh] md:h-[80vh]">
                 <div className='p-4 pb-2'>
                     <div className='flex justify-center items-center'>
                         <h1 className='flex justify-center px-6 py-8 pb-6 text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-cyan-400 to-blue-600'>Contact Me</h1>
@@ -62,11 +62,11 @@ export default function Contact() {
                         </a>
                     </div>
                 </div>
+                <h3 className='flex p-3 h-full items-end justify-end text-gray-500 font-semibold text-sm'>
+                    Nathanaël Desmeules on
+                    <a href='https://unsplash.com/photos/D2ID9aDRNu4' className='hover:brightness-110'>&nbsp;<u>Unsplash</u></a>
+                </h3>
             </div>
-            <h3 className='flex p-3 justify-end text-gray-500 font-semibold text-sm'>
-                Nathanaël Desmeules on
-                <a href='https://unsplash.com/photos/D2ID9aDRNu4' className='hover:brightness-110'>&nbsp;<u>Unsplash</u></a>
-            </h3>
             <Footer desc={description}/>
         </main>
     )
