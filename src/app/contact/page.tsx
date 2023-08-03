@@ -8,13 +8,13 @@ export default function Contact() {
     return (
         <main className="font-sans">
             <NavBar page='Contact'/>
-            <div className="flex flex-col p-4 bg-[url('/assets/backgroundcontact.jpg/')] bg-scroll bg-center bg-cover h-[90vh] md:h-[80vh]">
+            <div className="flex flex-col p-4 bg-[url('/assets/backgroundcontact.jpg/')] bg-scroll bg-center bg-cover h-[110vh] md:h-[80vh]">
                 <div className='p-4 pb-2'>
                     <div className='flex justify-center items-center'>
                         <h1 className='flex justify-center px-6 py-8 pb-6 text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-cyan-400 to-blue-600'>Contact Me</h1>
                     </div>
                     <div className='flex justify-center pb-4'>
-                        <ul className='flex justify-center md:justify-normal'>
+                        <ul className='flex justify-center md:justify-normal md:brightness-[.8]'>
                             <li className='px-4'>
                                 <a href='https://www.linkedin.com/in/aosma/'>
                                     <Image src='/icons/socials/linkedinwhite.png' className='hover:brightness-[.7] transition' width={40} height={40} alt='LinkedIn Profile'/>
