@@ -14,7 +14,7 @@ export default function Projects() {
     const description = "Electrical & Computer Engineering student passionate in Cybersecurity, Robotics, and Electronics.";
 
     return (
-        <main className="font-sans bg-[url('/assets/backgroundproj.jpg/')] bg-fixed bg-center bg-cover h-auto">
+        <main className="font-sans bg-[url('/assets/backgroundproj.jpg/')] bg-scroll md:bg-fixed bg-center md:bg-cover h-auto">
             <NavBar page='Projects'/>
             <div className='p-4'>
                 <div className='min-[896px]:flex justify-center'>
